@@ -1,0 +1,20 @@
+<script>
+        var email = document.getElementById('email')
+        var Password = document.getElementById('Password')
+
+        email.addEventListener('focus',()=>{ 
+               email.stely.bodercolor = "#4A5F6A";
+        });
+        email.addEventListener('blur',()=>{ 
+               email.stely.bodercolor = "#ccc";
+
+        });
+
+        Password.addEventListener('focus',()=>{ 
+               Password.stely.bodercolor = "#4A5F6A";
+        });
+        Password.addEventListener('blur',()=>{ 
+              Password.stely.bodercolor = "#ccc";
+
+        });
+      </script>

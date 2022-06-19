@@ -1,0 +1,37 @@
+<html>
+     <head>
+        <title>Form contato</title>
+    </head>
+
+
+
+
+    <body>
+<form>
+    <h3>Entrar em contato</h3> 
+    <input id="e-mail" type="text" name="email" placeholder="Seu e-mail..."/>
+    <input id="password"type="password" name="Senha" placeholder="Sua senha..."/>
+    <input type="submit" name="acao" value="Enviar"/>
+       </form>
+    <script>
+        var email = document.getElementById('email')
+        var Password = document.getElementById('Password')
+
+        email.addEventListener('focus',()=>{ 
+               email.stely.bodercolor = "#4A5F6A";
+        });
+        email.addEventListener('blur',()=>{ 
+               email.stely.bodercolor = "#ccc";
+
+        });
+
+        Password.addEventListener('focus',()=>{ 
+               Password.stely.bodercolor = "#4A5F6A";
+        });
+        Password.addEventListener('blur',()=>{ 
+              Password.stely.bodercolor = "#ccc";
+
+        });
+      </script>
+     </body>
+</html>
